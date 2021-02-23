@@ -1,4 +1,4 @@
-#**Sprawozdanie - laboratorium 3**#
+**Sprawozdanie - laboratorium 3**
  
 **Autor:** Jakub Kępczyński 
 **Grupa:** ININ4_PR 
