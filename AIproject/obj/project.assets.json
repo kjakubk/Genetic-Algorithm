@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GeneticSharp/2.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GeneticSharp.Domain.dll": {},
+          "lib/netstandard2.0/GeneticSharp.Infrastructure.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GeneticSharp.Domain.dll": {},
+          "lib/netstandard2.0/GeneticSharp.Infrastructure.Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeneticSharp/2.6.0": {
+      "sha512": "mCloV8NtnKR/SYJViRKAH5zI/D/NrTf3kJIWFyAWelW++fbCHeCP/P/xCMaTVfaDnZD2FeYDohk17cRjWyBy/Q==",
+      "type": "package",
+      "path": "geneticsharp/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geneticsharp.2.6.0.nupkg.sha512",
+        "geneticsharp.nuspec",
+        "lib/net462/GeneticSharp.Domain.dll",
+        "lib/net462/GeneticSharp.Infrastructure.Framework.dll",
+        "lib/netstandard2.0/GeneticSharp.Domain.dll",
+        "lib/netstandard2.0/GeneticSharp.Infrastructure.Framework.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "GeneticSharp >= 2.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jakub\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jakub\\source\\repos\\AIproject\\AIproject\\AIproject.csproj",
+      "projectName": "AIproject",
+      "projectPath": "C:\\Users\\jakub\\source\\repos\\AIproject\\AIproject\\AIproject.csproj",
+      "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jakub\\source\\repos\\AIproject\\AIproject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "GeneticSharp": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

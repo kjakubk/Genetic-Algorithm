@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AIproject/1.0.0": {
+        "dependencies": {
+          "GeneticSharp": "2.6.0"
+        },
+        "runtime": {
+          "AIproject.dll": {}
+        }
+      },
+      "GeneticSharp/2.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/GeneticSharp.Domain.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/GeneticSharp.Infrastructure.Framework.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AIproject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeneticSharp/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mCloV8NtnKR/SYJViRKAH5zI/D/NrTf3kJIWFyAWelW++fbCHeCP/P/xCMaTVfaDnZD2FeYDohk17cRjWyBy/Q==",
+      "path": "geneticsharp/2.6.0",
+      "hashPath": "geneticsharp.2.6.0.nupkg.sha512"
+    }
+  }
+}
