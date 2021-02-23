@@ -45,37 +45,46 @@ var termination = new FitnessStagnationTermination(1000);
 
 ![2](https://user-images.githubusercontent.com/61251819/108840969-5afed280-75d7-11eb-93ea-abac4a91cf90.jpg)
 
-**Eksperyment 2: **
+**Eksperyment 2:**
 Wartości wejściowe:  
 ```
 double maxWidth = 9999; double maxHeight = 8765; 
-new double[] { -1000, -1000, -1000, -1000  
-new double[] { maxWidth, maxHeight, maxWidth, maxHeight }, new int[] { 64, 64, 64, 64}, new int[] { 0, 0, 0, 0 }); var population = new Population(10, 50, chromosome); var crossover = new UniformCrossover(0.000001f); var termination = new FitnessStagnationTermination(10000); 
+new double[] { -1000, -1000, -1000, -1000  }
+new double[] { maxWidth, maxHeight, maxWidth, maxHeight },
+new int[] { 64, 64, 64, 64},
+new int[] { 0, 0, 0, 0 }); 
+var population = new Population(10, 50, chromosome); v
+ar crossover = new UniformCrossover(0.000001f); 
+var termination = new FitnessStagnationTermination(10000); 
 ```
 
 
 ![3](https://user-images.githubusercontent.com/61251819/108840970-5afed280-75d7-11eb-880e-952c81ae3c17.jpg)
 
-**Eksperyment 3: **
+**Eksperyment 3:**
 Wartości wejściowe:  
 ```
 double maxWidth = 9999; double maxHeight = 8765; 
-new double[] { -1000, -1000, -1000, -1000  
-new double[] { maxWidth, maxHeight, maxWidth, maxHeight }, new int[] { 64, 64, 64, 64}, new int[] { 0, 0, 0, 0 }); var population = new Population(100, 1000, chromosome); var crossover = new UniformCrossover(0.5f); var termination = new FitnessStagnationTermination(1000); 
+new double[] { -1000, -1000, -1000, -1000 }
+new double[] { maxWidth, maxHeight, maxWidth, maxHeight },
+new int[] { 64, 64, 64, 64}, new int[] { 0, 0, 0, 0 }); 
+var population = new Population(100, 1000, chromosome); 
+var crossover = new UniformCrossover(0.5f);
+var termination = new FitnessStagnationTermination(1000); 
 ```
 
 
 ![4](https://user-images.githubusercontent.com/61251819/108840966-59cda580-75d7-11eb-96a1-cfe9366479bb.jpg)
 
 
-**Wnioski:  **
+**Wnioski:**
 Na podstawie 1 i 3 eksperymentu można stwierdzić, że zwiększenie ilości chromosomów biorących udział w algorytmie genetycznym pozwala uzyskać optymalne rozwiązanie praktycznie natychmiast. Dlatego warto mieć to na uwadze przy implementacji algorytmu genetycznego do dużo bardziej złożonych obliczeń matematycznych. 
  
  
-**Podsumowanie:** 
+**Podsumowanie:**
 Przy dobrym zrozumieniu działania algorytmu genetycznego, może stać się on bardzo potężnym narzędziem, nie tylko w rękach programistów, ale także analityków, pracowników laboratoriów czy też inżynierów lotnictwa. Przy implementacji algorytmu genetycznego warto kłaść nacisk na liczbę chromosomów biorących udział w działaniu kodu, ale również powinniśmy zwracać uwagę na wartości krzyżowania, czy też zdolności mutacji poszczególnych pokoleń naszej implementacji.  
  
-**Bibliografia:  **
+**Bibliografia:**
 1)	ALGORYTMY GENETYCZNE I ICH ZASTOSOWANIA® - Dr inż. Radosław 
 WINICZENKO Katedra Podstaw Inżynierii, Wydział Inżynierii Produkcji, SGGW w Warszawie 
 2)	ALGORYTMY EWOLUCYJNE I ICH ZASTOSOWANIA-  Dr inż. Ewa Figielska 
