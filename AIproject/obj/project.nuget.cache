@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CgKjpCVDpwjJOtvneHy/nd8vxXNZEXUxRnNiYGEQyYNja6GUTdH3N8yywxnPBiDqgCuSmSG3xwV1lGL1Ih5c6A==",
+  "dgSpecHash": "h52PWMEsbf/pibCCrumq8lOPSArffaUY5yvK9vgG+qh0JXrGINH+D2gxXF2LRFCYmel9hKPAZ8HPZ8tPSPdqRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakub\\source\\repos\\AIproject\\AIproject\\AIproject.csproj",
+  "projectFilePath": "C:\\Users\\jakub\\Source\\Repos\\Genetic-Algorithm\\AIproject\\AIproject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jakub\\.nuget\\packages\\geneticsharp\\2.6.0\\geneticsharp.2.6.0.nupkg.sha512"
+    "C:\\Users\\jakub\\.nuget\\packages\\geneticsharp\\2.6.0\\geneticsharp.2.6.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
   ],
   "logs": []
 }
